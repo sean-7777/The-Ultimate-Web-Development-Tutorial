@@ -1,0 +1,3 @@
+To contribute start a new pull request saying that you want to contribute.
+If it gets approved, then you wil become an colaborater.
+Please don't do anything bad.
