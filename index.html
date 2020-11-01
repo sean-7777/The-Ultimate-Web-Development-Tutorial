@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Ultimate Web Development Tutorial - Home</title>
+	<style> @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); </style>
+	<style>
+		body {font-family: 'Roboto', sans-serif;}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a,
+		.dropbtn {
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover,
+		.dropdown-content a:hover,
+		.dropdown:hover .dropbtn {
+			background-color: blue;
+		}
+
+		li.dropdown {
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			z-index: 1;
+		}
+
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		.active {
+  		background-color: #4CAF50;
+		}
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li><a href="#" class="active">Home</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Tutorial</a>
+			<div class="dropdown-content">
+				<a href="#">HTML Tutorial</a>
+				<a href="#">CSS Tutorial</a>
+				<a href="#">JS Tutorial</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Reference</a>
+			<div class="dropdown-content">
+				<a href="#">HTML Reference</a>
+				<a href="#">CSS Reference</a>
+				<a href="#">JS Reference</a>
+			</div>
+		</li>
+	</ul>
+	<h1>Home</h1>
+	<p>
+		Hi! So if you're here you probably want to learn something right? Well then in that case just click on any of the links above in the nav bar. Byeeeee! <br>
+		<span style="font-size: 75px;">&#x263A;</span>
+	</p>
+</body>
+
+</html>
