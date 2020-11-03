@@ -6,97 +6,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>The Ultimate Web Development Tutorial - Home</title>
 	<link rel="stylesheet" href="https://stackedit.io/style.css" />
-	<style> @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); </style>
-	<style>
-		body {
-			font-family: 'Roboto', sans-serif;
-			color: rgba(0,0,0,.75);
-			font-size: 16px;
-			font-variant-ligatures: common-ligatures;
-			line-height: 1.67;
-    			-webkit-font-smoothing: antialiased;
-			
-		}
-
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #333;
-		}
-
-		li {
-			float: left;
-		}
-
-		li a,
-		.dropbtn {
-			display: inline-block;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
-
-		li a:hover,
-		.dropdown-content a:hover,
-		.dropdown:hover .dropbtn {
-			background-color: blue;
-		}
-
-		li.dropdown {
-			display: inline-block;
-		}
-
-		.dropdown-content {
-			display: none;
-			position: absolute;
-			background-color: #f9f9f9;
-			min-width: 160px;
-			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-			z-index: 1;
-		}
-
-		.dropdown-content a {
-			color: white;
-			padding: 12px 16px;
-			text-decoration: none;
-			display: block;
-			text-align: left;
-		}
-
-		.dropdown:hover .dropdown-content {
-			display: block;
-		}
-
-		.active {
-  		background-color: #4CAF50;
-		}
-	</style>
+	<link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-	<ul>
-		<li><a href="#" class="active">Home</a></li>
-		<li><a href="intro.html">Intro</a></li>
-		<li class="dropdown">
-			<a href="javascript:void(0)" class="dropbtn">Tutorial</a>
-			<div class="dropdown-content">
-				<a href="https://sean-7777.github.io/The-Ultimate-Web-Development-Tutorial/tutorial/html.html">HTML Tutorial</a>
-				<a href="#">CSS Tutorial</a>
-				<a href="#">JS Tutorial</a>
-			</div>
-		</li>
-		<li class="dropdown">
-			<a href="javascript:void(0)" class="dropbtn">Reference</a>
-			<div class="dropdown-content">
-				<a href="#">HTML Reference</a>
-				<a href="#">CSS Reference</a>
-				<a href="#">JS Reference</a>
-			</div>
-		</li>
-	</ul>
+	<nav id='menu'>
+  <ul>
+    <li><a href='https://sean-7777.github.io/The-Ultimate-Web-Development-Tutorial/'>Home</a></li>
+    <li><a href='javascript:void(0)' class='active'>Intro</a></li>
+    <li><a class='dropdown-arrow' href='javascript:void(0)'>Tutorial</a>
+      <ul class='sub-menus'>
+        <li><a href='https://sean-7777.github.io/The-Ultimate-Web-Development-Tutorial/tutorial/html.html'>HTML Tutorial</a></li>
+        <li><a href='https://sean-7777.github.io/The-Ultimate-Web-Development-Tutorial/tutorial/css.html'>CSS Tutorial</a></li>
+        <li><a href='https://sean-7777.github.io/The-Ultimate-Web-Development-Tutorial/tutorial/js.html'>JS Tutorial</a></li>
+      </ul>
+    </li>
+    <li><a class='dropdown-arrow' href='javascript:void(0)'>Reference</a>
+      <ul class='sub-menus'>
+        <li><a href='https://sean-7777.github.io/The-Ultimate-Web-Development-Tutorial/ref/html.html'>HTML Reference</a></li>
+        <li><a href='https://sean-7777.github.io/The-Ultimate-Web-Development-Tutorial/ref/css.html'>CSS Reference</a></li>
+        <li><a href='https://sean-7777.github.io/The-Ultimate-Web-Development-Tutorial/ref/js.html'>JS Reference</a></li>
+      </ul>
+    </li>
+    <li><a href='about.html'>About</a></li>
+  </ul>
+</nav>
 	<h1>&nbsp;Home</h1>
 	<p>
 		&nbsp;Hi! So if you're here you probably want to learn something right? Well then in that case just click on any of the links above in the nav bar. Byeeeee! <br>
